@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"start": "./node_modules/.bin/pm2 start ecosystem.config.js",
+		"stop": "./node_modules/.bin/pm2 stop all",
+		"logs": "./node_modules/.bin/pm2 logs"
+	},
+	"dependencies": {
+		"pm2": "^5.2.0",
+		"redis-cli": "^2.1.2"
+	}
+}
